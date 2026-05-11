@@ -1,7 +1,9 @@
 # K1R-Scan-fantom
+🛠 Status: Active Development (v1.3)⚠️ Warning: Use only for educational purposes!
 Network Stalker: Multi-port scanner with automated random IP target selection.
-# 💀 K1R-Scan-fantom
+ ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
+# 💀 K1R-Scan-fantom
 
 
 
@@ -42,16 +44,44 @@ I軌襴暹 甯幗緲fi'　　 緲',纜　　贒i綟碕碚爺綴｡ ”'罨皴
 *   🎲 **Random IP Generation**: Автоматический подбор целей в СНГ и Европе.
 *   🔍 **Nmap Engine**: Глубокое сканирование портов (21, 22, 80, 445, 3389 и др.).
 *   🛡 **Banner Grabbing**: Определение версий софта и сервисов.
-*   📄 **Logging**: Сохранение всех "уловов" в файл `results.txt`. --#--!!! может не работать скоро зделаю патч
+*  📄 **Logging**: Надежное сохранение всех данных в results.txt (v1.2 Patch)
 
 ### 📦 Установка и запуск
 ```bash
 # Установка зависимостей
 sudo apt install nmap
 pip install python-nmap
+pip install ipapi
+
+### 🎯 Целевые порты
+
+| Порт | Сервис | Зачем сканируем? |
+| :--- | :--- | :--- |
+| 21 | FTP | Поиск открытых файловых хранилищ |
+| 22 | SSH | Вход в Linux-серверы |
+| 23 | Telnet | Старые роутеры и принтеры (часто без паролей) |
+| 80 | HTTP | Веб-админки камер и панелей управления |
+| 445 | SMB | Уязвимости старых Windows (EternalBlue) |
+| 554 | RTSP | Прямые трансляции с IP-камер |
+| 5900 | VNC | Удаленный доступ к рабочему столу |
+
+
+### 💬 Контакты
+Если есть идеи или нашел баг — пиши в Issues на GitHub. Скоро появится закрытый канал в Telegram для своих.
+
+
+### 🗺 Roadmap
+- [x] v1.3: Оформление и патч логов.
+- [ ] v1.4: Многопоточность (увеличение скорости в 5-10 раз).
+- [ ] v1.7: Выбор определенных портов пользователем.
+- [ ] v2.0: C&C Framework / Ботнет концепт.
+
+
+
+
 
 # Запуск
-sudo python3 scanner.py
+sudo python3 x.py
 ``--staying under the radar
 !также советую не менять задержку так как ваш провайдер может вам вырубить инет,также можите делать с этим скрптом что угодно!
 ---
