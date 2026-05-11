@@ -2,6 +2,19 @@
 Network Stalker: Multi-port scanner with automated random IP target selection.
 # 💀 K1R-Scan-fantom
 
+
+
+
+![Demo](Peek%202026-05-11%2016-41.gif)
+
+
+
+
+
+
+
+
+
 **K1R-Scan-fantom** — это автоматизированный инструмент для сетевой разведки. Скрипт генерирует случайные IP-адреса и проводит глубокое сканирование портов и баннеров сервисов.
 
 ---
