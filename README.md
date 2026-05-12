@@ -2,7 +2,12 @@
 🛠 Status: Active Development (v1.3)⚠️ Warning: Use only for educational purposes!
 Network Stalker: Multi-port scanner with automated random IP target selection.
  ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-
+ ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
+X / Twitter 	X 	
+ ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+ ![Debian](https://img.shields.io/badge/Debian-A81D33?style=flat&logo=debian&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)
+https://web.telegram.org/k/#@geiporno718s
 # 💀 K1R-Scan-fantom
 
 
