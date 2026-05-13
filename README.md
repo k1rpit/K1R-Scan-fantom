@@ -10,7 +10,8 @@ https://web.telegram.org/k/#@geiporno718s
  ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
  ![Debian](https://img.shields.io/badge/Debian-A81D33?style=flat&logo=debian&logoColor=white)
 
-![Demo](Peek%202026-05-11%2016-41.gif)
+![K1R-Scan-fantom Demo](Peek%202026-05-13%2019-25.gif)
+
 
 
 
@@ -75,7 +76,7 @@ pip install ipapi
 
 ### 🗺 Roadmap
 - [x] v1.3: Оформление и патч логов.
-- [ ] v1.4: Многопоточность (увеличение скорости в 5-10 раз).
+- [x] v1.4: Многопоточность (увеличение скорости в 5-10 раз).
 - [ ] v1.7: Выбор определенных портов пользователем.
 - [ ] v2.0: C&C Framework / Ботнет концепт.
 
