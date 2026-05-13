@@ -1,6 +1,6 @@
 import nmap;import time;import random;import ipapi;import datetime  # СКАЧАЙТЕ
 END = '\033[0m'
-
+import threading 
 RED = '\033[31m'
 GREEN = '\033[32m'
 YELLOW = '\033[33m'
@@ -31,8 +31,9 @@ f瓲軌揄′　　　　　　　　　　　　　,gf毯綴
 巓登嶮 薤篝㎜㎜ g　 　 緲　 　 甯體i爺綴｡, ”'罨琥
 I軌襴暹 甯幗緲fi'　　 緲',纜　　贒i綟碕碚爺綴｡ ”'罨皴
 巓襴驫 霤I緲緲　　 纜穐　　甯絛跨飩i髢綴馳爺綴｡`'等誄                     
-version->V1.2
-K1RPIT
+{CYAN}
+version->V1.4 | Author: K1RPIT
+GitHub: https://github.com/k1rpit/K1R-Scan-fantom
 -------------------------------------------------------------------------------------------------------   {END}''')
                                                                   
 start_now()
@@ -106,15 +107,26 @@ def scan_nm():
      
 
 
-while True:
-    try:
-        random_ip()
-        scan_nm()
-        print(f'{PURPLE}SCAN🤖🔍{END}')
-        time.sleep(random.randint(9, 16))
-    except nmap.PortScannerError:  
-        print(f'{RED}[!]pip istall nmap and sudo apt install nmap,pls')
-        break
-    except KeyboardInterrupt:
-        print(f'{BOLD}[пока!]{END}')
-        break
+def play_threads():
+    while True:
+        try:
+            random_ip()   
+            scan_nm()     
+            print(f'{PURPLE}SCAN🤖🔍{END}')
+            time.sleep(random.randint(8, 14))
+        except nmap.PortScannerError:  
+            print(f'{RED}[!] Ошибка Nmap в потоке{END}')
+            break
+        except Exception:
+            pass
+
+for i in range(3):
+    t = threading.Thread(target=play_threads)
+    t.daemon = True   
+    t.start()
+
+try:
+    while True:
+        time.sleep(1)
+except KeyboardInterrupt:
+    print(f'\n{BOLD}[пока!]{END}')
