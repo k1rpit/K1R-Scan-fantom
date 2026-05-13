@@ -1,6 +1,5 @@
 # K1R-Scan-fantom
-🛠 Status: Active Development (v1.3)⚠️ Warning: Use only for educational purposes!
-Network Stalker: Multi-port scanner with automated random IP target selection.
+[v1.4] Fast Multi-threaded Network Stalker: Automated random IP target selection and deep multi-port banner scanner built on Nmap engine.
  ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
  ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
  
