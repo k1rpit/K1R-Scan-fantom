@@ -60,8 +60,8 @@ ip_1q = [
 ip_1q = list(set(ip_1q))
 
 def random_ip():
-    global Q
     global R43
+    global Q
     R43 =datetime.datetime.now().strftime('%H:%M')
     q1=random.choice(ip_1q)
     q2 = random.randint(0, 255)
@@ -69,12 +69,12 @@ def random_ip():
     q4= random.randint(0, 255)
     Q = f'{q1}.{q2}.{q3}.{q4}'
     print(f'[{R43}]-{Q}')
-
+    
 
 
 def scan_nm():
-    global nm
     global ie
+    global nm
     nm = nmap.PortScanner()
     nm.scan(hosts=Q, arguments='-Pn -sV -p  21,22,23,80,135,137,139,445,554,1154,3389,5900,5901,5902 --open --reason --host-timeout 30s ')
     if Q in nm.all_hosts():
