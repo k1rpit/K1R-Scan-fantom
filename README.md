@@ -5,7 +5,7 @@
  
  
 ![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)
-https://web.telegram.org/k/#@geiporno718s
+t.me/k1rpit718s
 # 💀 K1R-Scan-fantom
  ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
  ![Debian](https://img.shields.io/badge/Debian-A81D33?style=flat&logo=debian&logoColor=white)
